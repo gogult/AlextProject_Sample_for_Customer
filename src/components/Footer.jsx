@@ -11,12 +11,13 @@ const Footer = () => {
         <div className='mb-6 md:mb-0'>
             <Link to='/'>
               {/* <img src={Logo} alt="" className='w-32'/> */}
-              <h1 className='text-red-500 text-2xl font-bold'>Zaptro</h1>
+              <h1 className='text-red-500 text-2xl font-bold'>JK Creatives</h1>
             </Link>
-            <p className='mt-2 text-sm'>Powering Your World with the Best in Electronics.</p>
-            <p className='mt-2 text-sm'>123 Electronics St, Style City, NY 10001</p>
-            <p className='text-sm'>Email: support@Zaptro.com</p>
-            <p className='text-sm'>Phone: (123) 456-7890</p>
+            <p className='mt-2 text-sm'>Glass like art works with Vibrant Color</p>
+            <p className='mt-2 text-sm'>Alagappa Institute Of Technology, 44, Thiruvengadam,</p>
+            <p className='mt-2 text-sm'>Chandrasekaran Salai, Perambur, Chennai, Tamil Nadu 600082</p>
+            <p className='text-sm'>Email: support@JK Creatives.com</p>
+            <p className='text-sm'>Phone: 7358376144</p>
         </div>
         {/* customer service link */}
         <div className='mb-6 md:mb-0'>
@@ -55,7 +56,7 @@ const Footer = () => {
       </div>
       {/* bottom section */}
       <div className='mt-8 border-t border-gray-700 pt-6 text-center text-sm'>
-        <p>&copy; {new Date().getFullYear()} <span className='text-red-500'>Zaptro</span>. All rights reserved</p>
+        <p>&copy; {new Date().getFullYear()} <span className='text-red-500'>JK Creatives</span>. All rights reserved</p>
       </div>
     </footer>
   )

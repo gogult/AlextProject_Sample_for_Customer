@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify'
 import ScrollToTop from 'react-scroll-to-top'
 
 // Import your Publishable Key
-const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
+const PUBLISHABLE_KEY = "pk_test_d29ya2FibGUtdXJjaGluLTYyLmNsZXJrLmFjY291bnRzLmRldiQ"
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
